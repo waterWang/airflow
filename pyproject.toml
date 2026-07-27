@@ -1418,6 +1418,10 @@ ci-image = [
 # floor; `scripts/ci/prek/upgrade_important_versions.py` deliberately skips it.
 required-version = ">=0.11.8"
 no-build-isolation-package = ["sphinx-redoc"]
+# Hold the development environment on pandas 2 until pandas 3 support lands; this constrains
+# only what this workspace locks, not what any distribution declares for its users.
+# Remove this together with https://github.com/apache/airflow/pull/70558
+constraint-dependencies = ["pandas<3"]
 # Synchroonize with scripts/ci/prek/upgrade_important_versions.py
 exclude-newer = "4 days"
 
