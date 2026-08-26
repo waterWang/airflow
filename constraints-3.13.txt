@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-08-24T11:27:43.917686
+# This constraints file was automatically generated on 2026-08-26T02:15:39.034366
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -62,6 +62,7 @@ WTForms==3.2.2
 Werkzeug==3.1.8
 a2wsgi==1.10.10
 adal==1.2.7
+adbc-driver-manager==1.12.0
 adlfs==2026.8.0
 aenum==3.1.17
 aiobotocore==3.9.0
@@ -89,9 +90,10 @@ alibabacloud_tea_openapi==0.4.0rc3
 amqp==5.3.1
 annotated-doc==0.0.5
 annotated-types==0.8.0
-anthropic==0.125.0
+anthropic==1.0.0
 anyio==4.14.2
 apache-airflow-providers-akeyless==0.3.0
+apache-airflow-providers-amazon==9.35.0
 apache-airflow-providers-apache-cassandra==3.9.5
 apache-airflow-providers-apache-drill==3.3.3
 apache-airflow-providers-apache-druid==4.5.2
@@ -120,6 +122,7 @@ apache-airflow-providers-http==6.0.5
 apache-airflow-providers-influxdb==2.11.0
 apache-airflow-providers-informatica==0.2.0
 apache-airflow-providers-jenkins==4.2.6
+apache-airflow-providers-microsoft-azure==15.0.0
 apache-airflow-providers-microsoft-winrm==3.14.4
 apache-airflow-providers-mongo==5.4.0
 apache-airflow-providers-odbc==4.12.3
@@ -140,7 +143,7 @@ apache-airflow-providers-vespa==0.1.1
 apache-airflow-providers-ydb==2.5.3
 apache-airflow-providers-zendesk==4.12.0
 apispec==6.10.0
-apprise==1.12.0
+apprise==1.13.0
 argcomplete==3.7.2
 arrow==1.4.0
 asana==5.2.5
@@ -192,7 +195,7 @@ bleach==6.4.0
 blinker==1.9.0
 boto3==1.43.56
 botocore==1.43.56
-cachelib==0.15.4
+cachelib==0.16.1
 cachetools==6.2.6
 cadwyn==7.0.0
 capi_param_builder_python==1.3.0
@@ -208,7 +211,7 @@ click-didyoumean==0.3.1
 click-plugins==1.1.1.2
 click-repl==0.3.0
 click==8.4.2
-clickhouse-connect==1.7.1
+clickhouse-connect==1.7.2
 cloudpickle==3.1.1
 cohere==7.0.9
 colorama==0.4.6
@@ -269,7 +272,7 @@ gitdb==4.0.12
 google-ads==31.4.0
 google-analytics-admin==0.30.1
 google-api-core==2.34.0
-google-api-python-client==2.198.0
+google-api-python-client==2.199.0
 google-auth-httplib2==0.4.1
 google-auth-oauthlib==1.4.0
 google-auth==2.56.3
@@ -399,7 +402,7 @@ limits==5.8.0
 linkify-it-py==2.1.0
 litellm==1.85.7
 lockfile==0.12.2
-logfire-api==4.40.0
+logfire-api==4.41.0
 looker_sdk==26.12.0
 lxml==6.1.2
 lz4==4.4.5
@@ -433,7 +436,7 @@ multidict==6.7.1
 mypy_extensions==1.1.0
 mysql-connector-python==26.7.0
 mysqlclient==2.2.8
-narwhals==2.24.0
+narwhals==2.25.0
 natsort==8.4.0
 nbclient==0.11.0
 nbconvert==7.17.1
@@ -511,9 +514,9 @@ pybreaker==1.4.1
 pycountry==26.2.16
 pycparser==3.0
 pycryptodome==3.23.0
-pydantic-ai-slim==2.32.1
+pydantic-ai-slim==2.33.0
 pydantic-extra-types==2.11.1
-pydantic-graph==2.32.1
+pydantic-graph==2.33.0
 pydantic-settings==2.15.0
 pydantic==2.13.4
 pydantic_core==2.46.4
@@ -548,7 +551,7 @@ pytokens==0.4.1
 pytz==2026.3.post1
 pyvespa==1.2.4
 pywinrm==0.5.0
-pyzmq==27.1.0
+pyzmq==27.2.0
 qdrant-client==1.19.0
 ray==2.57.0
 reactivex==5.1.0
@@ -573,7 +576,7 @@ s3fs==2026.7.0
 s3transfer==0.19.2
 sagemaker_studio==1.0.27
 scikit-learn==1.9.0
-scipy==1.18.0
+scipy==1.18.1
 scramp==1.4.17
 scrapbook==0.5.0
 segment-analytics-python==2.3.6
@@ -628,7 +631,7 @@ traitlets==5.16.1
 trino==0.339.0
 truststore==0.10.4
 typer==0.27.1
-types-protobuf==7.34.1.20260816
+types-protobuf==7.35.1.20260821
 types-requests==2.33.0.20260712
 typing-inspection==0.4.4
 typing_extensions==4.16.0
